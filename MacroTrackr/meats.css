@@ -1,0 +1,145 @@
+.navigation-links-out-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-out-f-a-q {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-out-f-a-q1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-out-f-a-q2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+@media(max-width: 767px) {
+  .navigation-links-out-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-out-f-a-q {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-out-f-a-q1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-out-f-a-q2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+td {
+  width: 190px;
+  height: 40px;
+  align-content: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+thead {
+  background-color: #8886fd;
+  height: 40px;
+  color: #ffffff;
+}
+
+.meats-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.meats-header {
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  max-width: 100%;
+  box-shadow: 1px 1px 1px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.meats-image {
+  width: 186px;
+  height: 48px;
+  transition: 0.3s;
+}
+.meats-image:hover {
+  transform: scale(1.05);
+}
+.meats-nav {
+  display: flex;
+}
+
+.meats-searchbar {
+  box-shadow: 2px 2px 4px 0px #d4d4d4;
+  transition: 0.3s;
+  margin-left: 20px;
+  border-color: #000000;
+  border-style: groove;
+}
+.meats-searchbar:active {
+  transform: scale(1.03);
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.meats-text02 {
+  top: 318px;
+  left: 0px;
+  color: var(--dl-color-gray-500);
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+}
+.meats-list {
+  width: 1072px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.meats-li {
+  color: #ffffff;
+  margin-top: 19px;
+  background-color: #7a77ff;
+}
+.meats-li1 {
+  height: 41px;
+  background-color: #fbf8f8;
+}
+.meats-aliment {
+  margin-left: 30px;
+}
+.meats-calories {
+  margin-left: 130px;
+}
+.meats-calories1 {
+  margin-left: 130px;
+}
+.meats-calories2 {
+  margin-left: 130px;
+}
+.meats-calories3 {
+  margin-left: 130px;
+}
+@media(max-width: 767px) {
+  .meats-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .meats-nav {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .meats-header {
+    padding: var(--dl-space-space-unit);
+  }
+}

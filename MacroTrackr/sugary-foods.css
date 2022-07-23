@@ -1,0 +1,153 @@
+.navigation-links-out-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-out-f-a-q {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-out-f-a-q1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-out-f-a-q2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-out-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-out-f-a-q {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-out-f-a-q1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-out-f-a-q2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+td {
+  width: 190px;
+  height: 40px;
+  align-content: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+thead {
+  background-color: #8785fd;
+  height: 40px;
+  color: #ffffff;
+}
+.sugary-foods-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.sugary-foods-header {
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  max-width: 100%;
+  box-shadow: 1px 1px 1px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.sugary-foods-image {
+  width: 186px;
+  height: 48px;
+  transition: 0.3s;
+}
+.sugary-foods-image:hover {
+  transform: scale(1.05);
+}
+.sugary-foods-nav {
+  display: flex;
+}
+.sugary-foods-text {
+  color: #4a83f9;
+  z-index: 2;
+  font-size: xxx-large;
+  margin-top: 40px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sugary-foods-searchbar {
+  box-shadow: 2px 2px 4px 0px #d4d4d4;
+  transition: 0.3s;
+  margin-left: 20px;
+  border-color: #000000;
+  border-style: groove;
+}
+.sugary-foods-searchbar:active {
+  transform: scale(1.03);
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.sugary-foods-text02 {
+  top: 318px;
+  left: 0px;
+  color: #233d70;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+}
+.sugary-foods-list {
+  width: 1072px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.sugary-foods-li {
+  color: #ffffff;
+  margin-top: 19px;
+  background-color: #7a77ff;
+}
+.sugary-foods-li1 {
+  height: 41px;
+  background-color: #fbf8f8;
+}
+.sugary-foods-aliment {
+  margin-left: 30px;
+}
+.sugary-foods-calories {
+  margin-left: 130px;
+}
+.sugary-foods-calories1 {
+  margin-left: 130px;
+}
+.sugary-foods-calories2 {
+  margin-left: 130px;
+}
+.sugary-foods-calories3 {
+  margin-left: 130px;
+}
+@media(max-width: 767px) {
+  .sugary-foods-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .sugary-foods-nav {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .sugary-foods-header {
+    padding: var(--dl-space-space-unit);
+  }
+}

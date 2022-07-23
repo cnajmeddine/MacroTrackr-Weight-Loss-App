@@ -1,0 +1,238 @@
+.navigation-links-out-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-out-f-a-q {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-out-f-a-q1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-out-f-a-q2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-out-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-out-f-a-q {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-out-f-a-q1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-out-f-a-q2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.faq-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.faq-header {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  box-shadow: 1px 1px 1px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.faq-image {
+  width: 186px;
+  height: 48px;
+  transition: 0.3s;
+}
+.faq-image:hover {
+  transform: scale(1.05);
+}
+.faq-nav {
+  display: flex;
+}
+.faq-about {
+  width: 1117px;
+  height: 1366px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+}
+.faq-text {
+  color: #6c9bf9;
+  margin-top: 51px;
+  text-align: left;
+}
+.faq-text02 {
+  top: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+}
+.faq-text04 {
+  top: 206px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.faq-text10 {
+  top: 387px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+}
+.faq-text12 {
+  top: 437px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.faq-text16 {
+  top: 629px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+}
+.faq-text18 {
+  top: 676px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.faq-text22 {
+  top: 907px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+}
+.faq-text24 {
+  top: 984px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.faq-text28 {
+  top: 1131px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+}
+.faq-text30 {
+  top: 1183px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.faq-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #ECF1F4;
+}
+.faq-image1 {
+  width: 191px;
+  height: 50px;
+  object-fit: cover;
+}
+@media(max-width: 767px) {
+  .faq-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .faq-nav {
+    display: none;
+  }
+  .faq-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .faq-text34 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .faq-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .faq-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .faq-image1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .faq-text34 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

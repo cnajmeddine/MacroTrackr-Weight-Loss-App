@@ -1,0 +1,181 @@
+.navigation-links-in-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-in-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-in-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-in-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-in-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-in-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-in-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-in-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-in-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.progress-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.progress-header {
+  width: 100%;
+  display: flex;
+  box-shadow: 1px 1px 1px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.progress-image {
+  height: 48px;
+  transition: 0.3s;
+}
+.progress-image:hover {
+  transform: scale(1.05);
+}
+.progress-nav {
+  display: flex;
+}
+.progress-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.progress-text {
+  color: #927ce4;
+  font-size: 50px;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.progress-calories {
+  width: 891px;
+  height: 400px;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+.progress-line {
+  width: 794px;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.progress-text3 {
+  margin-top: var(--dl-space-space-twounits);
+}
+.progress-calories1 {
+  width: 891px;
+  height: 402px;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+.progress-footer {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #ECF1F4;
+}
+.progress-image1 {
+  width: 191px;
+  height: 50px;
+  object-fit: cover;
+}
+@media(max-width: 767px) {
+  .progress-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .progress-nav {
+    display: none;
+  }
+  .progress-btn-group {
+    display: none;
+  }
+  .progress-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .progress-text4 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .progress-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .progress-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .progress-image1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .progress-text4 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
