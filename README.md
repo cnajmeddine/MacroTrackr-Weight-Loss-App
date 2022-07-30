@@ -9,3 +9,9 @@ Numerous studies have confirmed that it is beneficial to keep track of your acti
 At MacroTrackr, we make sure you can quickly and easily add your meals to your diary. Indeed, easy use is synonymous with regularity and therefore success in your weight loss goals.
 
 <h3>Join us now to keep track of your daily calories and to gain access to the multiple features our app offers!</h3>
+
+***
+
+![Screenshots](https://user-images.githubusercontent.com/109869412/181925037-bc20c20b-d8b4-4e10-80e9-dd49b88aecab.jpg)
+
+    Figure: Some screenshots of the web application
